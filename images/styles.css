@@ -1,0 +1,109 @@
+/* Styling Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+/* -------------------------
+common style and utilities 
+-------------------------- */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#f3f1ff;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Styles for Header */
+.top-section{
+    width: 1440px;
+    height: 677px;
+    background-color: #2D25A0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.header{
+    display: flex;
+    width: 50%;
+
+}
+.header-info h1{
+    height: 230px;
+    width: 485px;
+    position: absolute;
+    left: 156px;
+    top: 207px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+}
+.header-info a{
+    text-decoration: none;
+    width: 120px;
+    height: 24px;
+    background-color: yellowgreen;
+    position: absolute;
+    left: 156px;
+    top: 500px;
+    padding: 10px 24px;
+    
+}
+.header-image img{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    left: 1000px;
+    top: 153px;
+}
+
+/* Styles for Players */
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 330px;
+    height: 474px;
+    position: absolute;
+    left: 180px;
+    top: 747px;
+
+}
+.player-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid orchid;
+    padding: 15px 15px 33px 15px;
+    
+    
+}
+.player-details img{
+    width: 300px;
+    height: 256px;
+}
+
+
+
+
+
+
+
+
+
+
+footer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 0px;
+   width: 484px;
+   height: 213px;
+   position: absolute;
+   left: 475px;
+   top: 3474px;
+}
