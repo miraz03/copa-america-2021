@@ -175,3 +175,42 @@ footer p{
     color: slategray;
     font-size:small;
 }
+
+/* ***************************
+Media Query for various Device
+****************************** */
+
+/* ***** For Mobile Devices ****** */
+
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .navigation-bar, .header-image{
+        display: none;
+    }
+    .header-info, .players{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    footer{
+        position: absolute;
+        top: 8000px;
+    }
+}
+
+/* ******* For Tablet Devices ********** */
+
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+    .container{
+        width: 100%;
+    }
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    footer{
+        position: absolute;
+        top: 4500px;
+    }
+
+}
